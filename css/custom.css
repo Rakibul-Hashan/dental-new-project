@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+a, a:hover {
+  text-decoration: none; }
+
+p {
+  color: #707070;
+  font-size: 16px; }
+
+ul li {
+  list-style: none; }
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0); }
+
+.service-section .services h2, .our-services-section .service-detail ul.nav li h2 {
+  font-size: 22px !important;
+  font-weight: 700; }
+
+.btn-custom, .pricing-section .pricing-plan ul.list-unstyled li a {
+  background: #00cce1;
+  padding-right: 36px;
+  padding-left: 36px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.4s; }
+  .btn-custom:hover, .pricing-section .pricing-plan ul.list-unstyled li a:hover {
+    background: #F69165; }
+
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0; }
+
+a, a:hover {
+  text-decoration: none; }
+
+p {
+  color: #707070;
+  font-size: 16px; }
+
+ul li {
+  list-style: none; }
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0); }
+
+header {
+  padding-top: 28px;
+  padding-bottom: 28px; }
+  header ul.nav {
+    align-items: center; }
+    header ul.nav .img-li {
+      padding-right: 10px; }
+    header ul.nav li h4 {
+      font-size: 22px; }
+    header ul.nav li span {
+      font-size: 16px;
+      color: #a0a0a0; }
+
+nav.bg-custom {
+  padding: 0;
+  background: #00cce1 !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px; }
+  nav.bg-custom .navbar-nav .nav-item a.nav-link {
+    color: #fff;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+    nav.bg-custom .navbar-nav .nav-item a.nav-link:hover, nav.bg-custom .navbar-nav .nav-item a.nav-link:focus {
+      color: #F69165; }
+
+button.btn.appoinment {
+  border-radius: 0px !important;
+  background: #F69165;
+  color: #fff;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  transform: skew(-10deg); }
+  button.btn.appoinment p {
+    transform: skew(10deg);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #fff; }
+    button.btn.appoinment p i {
+      padding-right: 10px;
+      color: #fff; }
+
+.carousel-section {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*// ####################################
+// 			SERVICE SECTION
+// ####################################*/
+.heading {
+  margin-bottom: 30px; }
+  .heading h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px; }
+  .heading img {
+    transform: rotateX(0deg);
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; }
+  .heading p {
+    font-size: 16px;
+    color: #707070;
+    font-weight: 500; }
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg); }
+  100% {
+    transform: rotateX(90deg); } }
+.service-section {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow: hidden; }
+  .service-section > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 15px; }
+  .service-section .services {
+    margin-bottom: 10px;
+    margin-right: 20px; }
+    .service-section .services img {
+      padding-right: 0;
+      padding-left: 0;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+
+.doctors-section {
+  background: #f9f9f9;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .doctors-section .heading {
+    justify-content: center; }
+    .doctors-section .heading p {
+      width: 60%;
+      margin: auto; }
+  .doctors-section .doctor {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    position: relative; }
+    .doctors-section .doctor::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-bottom: 5px solid #00cce1;
+      transition: all .5s linear; }
+    .doctors-section .doctor::before {
+      position: absolute;
+      content: "";
+      width: 0%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-bottom: 5px solid #F69165;
+      transition: all .5s linear; }
+    .doctors-section .doctor:hover::after {
+      width: 0%; }
+    .doctors-section .doctor:hover::before {
+      width: 100%; }
+    .doctors-section .doctor .doctor-img {
+      position: relative; }
+      .doctors-section .doctor .doctor-img img {
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden; }
+      .doctors-section .doctor .doctor-img:hover {
+        background: #454545; }
+      .doctors-section .doctor .doctor-img:hover img {
+        opacity: 0.3; }
+      .doctors-section .doctor .doctor-img:hover ul.nav {
+        opacity: 1; }
+    .doctors-section .doctor ul.nav {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center; }
+      .doctors-section .doctor ul.nav li a i {
+        color: white;
+        font-size: 16px;
+        padding: 13px 13px;
+        margin-right: 4px;
+        border: 2px solid #fff;
+        background: transparent;
+        transition: 0.5s ease; }
+        .doctors-section .doctor ul.nav li a i:hover {
+          background: #F69165;
+          border: 2px solid transparent; }
+    .doctors-section .doctor .doctor-info {
+      text-align: center;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px; }
+      .doctors-section .doctor .doctor-info h2 a {
+        font-size: 22px;
+        transition: 0.5s ease;
+        color: #363636; }
+        .doctors-section .doctor .doctor-info h2 a:hover {
+          color: #F69165; }
+
+.our-services-section {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .our-services-section .heading {
+    justify-content: center; }
+    .our-services-section .heading p {
+      width: 60%;
+      margin: auto; }
+  .our-services-section .service-detail {
+    margin-right: 8px;
+    margin-bottom: 30px;
+    padding: 15px;
+    transition: all 0.3s;
+    position: relative; }
+    .our-services-section .service-detail::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-top: 4px solid #ebebeb;
+      border-bottom: 4px solid #ebebeb;
+      transition: all .4s linear;
+      transform: scaleX(0.1); }
+    .our-services-section .service-detail::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-right: 4px solid #ebebeb;
+      border-left: 4px solid #ebebeb;
+      transition: all .4s linear;
+      transform: scaleY(0.1); }
+    .our-services-section .service-detail:hover::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-top: 4px solid #F69165;
+      border-bottom: 4px solid #F69165;
+      transition: all .4s linear;
+      transform: scaleX(1); }
+    .our-services-section .service-detail:hover::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-right: 4px solid #F69165;
+      border-left: 4px solid #F69165;
+      transition: all .4s linear;
+      transform: scaleX(1); }
+    .our-services-section .service-detail ul.nav {
+      align-items: center; }
+      .our-services-section .service-detail ul.nav li img {
+        margin-right: 10px; }
+    .our-services-section .service-detail p, .our-services-section .service-detail a {
+      color: #707070;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      transition: all 0.3s; }
+      .our-services-section .service-detail p:hover, .our-services-section .service-detail p a:hover, .our-services-section .service-detail a:hover, .our-services-section .service-detail a a:hover {
+        color: #F69165; }
+
+.pricing-section {
+  background: #f9f9f9;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .pricing-section .heading {
+    justify-content: center; }
+    .pricing-section .heading p {
+      width: 50%;
+      margin: auto; }
+  .pricing-section .pricing-plan {
+    border: 5px solid #fff;
+    background: #fff;
+    transition: 0.4s ease; }
+    .pricing-section .pricing-plan ul.list-unstyled {
+      margin-bottom: 0; }
+      .pricing-section .pricing-plan ul.list-unstyled li {
+        text-align: center;
+        background: #f9f9f9;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px; }
+        .pricing-section .pricing-plan ul.list-unstyled li h2 {
+          font-size: 30px;
+          font-weight: 700;
+          color: #00cce1; }
+        .pricing-section .pricing-plan ul.list-unstyled li h1 {
+          font-size: 48px;
+          font-weight: 900;
+          color: #00cce1;
+          transition: 0.2s ease; }
+        .pricing-section .pricing-plan ul.list-unstyled li strong {
+          font-size: 14px;
+          font-weight: 400;
+          transition: 0.2s ease; }
+        .pricing-section .pricing-plan ul.list-unstyled li p {
+          font-size: 16px;
+          color: #707070;
+          padding-right: 0;
+          padding-left: 0;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          font-weight: 400; }
+      .pricing-section .pricing-plan ul.list-unstyled .price {
+        background: #fff;
+        display: block;
+        width: 100%;
+        padding-right: 45px;
+        padding-left: 45px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        transition: 0.4s ease; }
+      .pricing-section .pricing-plan ul.list-unstyled:hover .price {
+        background: #F69165; }
+    .pricing-section .pricing-plan:hover {
+      border: 5px solid #F69165; }
+    .pricing-section .pricing-plan:hover .price h1, .pricing-section .pricing-plan .price strong {
+      color: #fff; }
+    .pricing-section .pricing-plan:hover .price h1 {
+      font-weight: 500; }
+
+.footer {
+  background: black; }
+  .footer .dental-plus p {
+    padding: 14px 0px; }
+  .footer .recent-post .author-foot {
+    padding: 14px 0px; }
+    .footer .recent-post .author-foot img {
+      width: 80px;
+      padding-right: 15px; }
+    .footer .recent-post .author-foot p {
+      font-size: 16px;
+      color: #b4b4b4;
+      font-weight: 500;
+      padding-bottom: 8px;
+      padding-left: 15px; }
+    .footer .recent-post .author-foot span {
+      font-size: 16px;
+      color: #777777;
+      padding-left: 15px; }
+
+/*# sourceMappingURL=custom.css.map */
