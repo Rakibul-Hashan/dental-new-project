@@ -1,1 +1,1 @@
-# dental-new-project
+My new dental project
